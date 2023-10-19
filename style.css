@@ -68,20 +68,18 @@ body * {
   /*para alinhar possicionamento absoluto - responsavel por deixar o sol na linha do track bem centralizado*/
   position: absolute;
   top: 50%;
-  left: 0px;
+  /*left: 0px;*/
+  animation: slider-out 0.2s forwards;
   z-index: 1;
   transform: translateY(-50%);
 }
 #switch button:hover {
-  box-shadow: 0px 0px 5px 3px rgba(216, 216, 216, 0.75);
+  outline: 6px solid var(--highlight-color);
 }
 .light #switch button {
-  right: 0px;
-  left: initial;
+  animation: slider-in 0.2s forwards;
 }
-.light #switch button:hover {
-  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
-}
+
 #switch span {
   display: block;
   width: 64px;
@@ -150,11 +148,31 @@ footer {
   font-size: 14px;
 }
 
+/*alteração de imagem do BG*/
 @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/* animação */
+@keyframes slider-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slider-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
