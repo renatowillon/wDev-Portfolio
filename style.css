@@ -23,7 +23,7 @@
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/Sun.svg);
 }
-.orange{
+.orange {
   --bg-color-menu-tec: #f90;
 }
 
@@ -271,10 +271,10 @@ footer {
   border-radius: 30px;
   background: var(--bg-color-menu-tec);
 }
-#tecnologias p{
+#tecnologias p {
   padding-top: 5px;
   padding-left: 20px;
-  color: #837E9F;
+  color: #837e9f;
   font-family: Merriweather Sans;
   font-size: 20px;
   font-style: normal;
@@ -282,21 +282,21 @@ footer {
   line-height: normal;
 }
 /*#perfil-desc p{*/
- .nome{
+.nome {
   margin-top: 40px;
   text-align: right;
   margin-right: 29px;
-  color: #837E9F;
+  color: #837e9f;
   font-family: Merriweather Sans;
   font-size: 23px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.desc{
+.desc {
   text-align: right;
   margin-right: 29px;
-  color: #837E9F;
+  color: #837e9f;
   font-family: Merriweather Sans;
   font-size: 13px;
   font-style: normal;
