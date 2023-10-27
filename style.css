@@ -26,6 +26,15 @@
 .orange {
   --bg-color-menu-tec: #f90;
 }
+.portfolio {
+  --text-color: white;
+  --bg-color-portfolio: #22212c;
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.5);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --bg-color-menu-tec: #00a3ff;
+}
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -194,7 +203,7 @@ footer {
 #portfolio {
   /*border: 1px solid red;*/
   width: 100%;
-  max-width: 588px;
+  max-width: 488px;
   /*margin: 56px auto 0px;*/
   margin: 0px auto 0px;
   padding: 24px 24px;
@@ -204,7 +213,7 @@ footer {
 #perfil {
   position: relative;
   margin: auto;
-  width: 448px;
+  width: 100%;
   height: 230px;
 }
 
@@ -214,17 +223,20 @@ footer {
   top: 50%;
   z-index: 1;
   transform: translateY(-50%);
-  margin-left: 65px;
+  margin-left: 10%;
+  margin-right: auto;
 }
 #perfil-desc {
   float: right;
   display: absolute;
-  width: 266px;
+  /*width: 266px;*/
+  width: 70%;
   height: 150px;
   border-radius: 20px;
   background: #302f3d;
   top: 50%;
-  margin-right: 65px;
+  margin-right: 10%;
+  margin-left: auto;
   margin-top: 40px;
   margin-bottom: 25px;
 }
@@ -235,7 +247,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 380px;
+  width: 98%;
   height: 225px;
   border-radius: 20px;
   background: #302f3d;
