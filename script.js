@@ -16,3 +16,12 @@ function toggleMode() {
     img.setAttribute("alt", "Foto de Renato sorrindo de óculos")
   }
 }
+
+//CONFIGURAÇÕES DO CAROUSEL//
+$(".carousel").slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 2000,
+})
