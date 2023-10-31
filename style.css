@@ -341,34 +341,15 @@ footer {
   font-size: 36px;
   scroll-behavior: smooth;
 }
-/*
-.carousel {
-  gap: 5px;
-  height: 70px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
-}
-.itens-carousel {
-  text-align: center;
-  width: 70px;
-  height: 70px;
-  border: 0.75px solid rgb(51, 51, 51);
-  border-radius: 1rem;
-}
-.carousel img {
-  padding: 5px;
-  width: 60px;
-  height: 60px;
-}
-*/
-.carousel {
+#size-carousel{
   display: block;
+  width: 95%;
+
+}
+.carousel {
+  display: flex;
   height: 70px;
-  width: 85%;
+  width: 90%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -377,17 +358,20 @@ footer {
   position: relative;
 }
 .itens-carousel {
-  display: block;
+  display: flex;
+  justify-content: center;
   height: 70px;
   width: 70px;
   border: 0.75px solid rgb(51, 51, 51);
   border-radius: 1rem;
-  margin: 10px;
+  margin: 5px;
+
 }
 .carousel img {
-  position: absolute;
-
-  transform: translate(36%, 20%);
+  display: block;
   height: 3rem;
   width: 3rem;
+  margin: auto;
+  margin-top: 11%;
+
 }
