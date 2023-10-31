@@ -228,7 +228,9 @@ footer {
 }
 #perfil-desc {
   float: right;
-  display: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   /*width: 266px;*/
   width: 70%;
   height: 150px;
@@ -296,6 +298,21 @@ footer {
 }
 /*#perfil-desc p{*/
 .nome {
+  display: flex;
+  justify-content: right;
+  margin-top: 40px;
+  text-align: right;
+  margin-right: 10px;
+  color: #837e9f;
+  font-family: Merriweather Sans;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.sobrenome {
+  display: flex;
+  justify-content: right;
   margin-top: 40px;
   text-align: right;
   margin-right: 29px;
@@ -307,6 +324,9 @@ footer {
   line-height: normal;
 }
 .desc {
+  display: flex;
+  justify-content: right;
+  margin-top: -30px;
   text-align: right;
   margin-right: 29px;
   color: #837e9f;
