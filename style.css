@@ -223,6 +223,8 @@ footer {
   transform: translateY(-50%);
   margin-left: 10%;
   margin-right: auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
 }
 #perfil-desc {
   float: right;
@@ -237,6 +239,7 @@ footer {
   margin-left: auto;
   margin-top: 40px;
   margin-bottom: 25px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #tecnologias {
@@ -341,10 +344,9 @@ footer {
   font-size: 36px;
   scroll-behavior: smooth;
 }
-#size-carouseL{
+#size-carouseL {
   display: block;
   width: 95%;
-
 }
 .carousel {
   display: flex;
@@ -362,10 +364,11 @@ footer {
   align-items: center;
   height: 70px;
   width: 70px;
-  border: 0.75px solid rgb(51, 51, 51);
+  /*border: 0.75px solid rgb(51, 51, 51);*/
+  border: 0.75px solid #837e9f;
+  /*border: 0.75px solid #302f3d;*/
   border-radius: 1rem;
   margin: 5px;
-
 }
 .carousel img {
   display: flex;
@@ -373,7 +376,4 @@ footer {
   justify-content: center;
   height: 3rem;
   width: 3rem;
-  
-  
-  
 }
