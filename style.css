@@ -159,7 +159,7 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 footer {
-  padding: 5px 0;
+  padding: 25px;
   text-align: center;
   font-size: 14px;
 }
@@ -391,19 +391,50 @@ footer {
   width: 3rem;
 }
 .projeto {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  text-align: center;
+  height: 320px;
   width: 370px;
   border: 0.75px solid #837e9f;
   border-radius: 1rem;
   margin: auto;
 }
+.image img {
+  width: 360px;
+  padding: 10px;
+  border-radius: 1rem;
+  opacity: 1;
+  transition: opacity 500ms ease 0s;
+}
+.image img:hover {
+  opacity: 0.75;
+}
+@keyframes zoom {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 5px;
+  font-weight: 700;
+}
 .descricao {
+  padding: 10px;
   color: #f0f0f0;
   font-family: Poppins, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 300;
   line-height: normal;
   text-align: center;
