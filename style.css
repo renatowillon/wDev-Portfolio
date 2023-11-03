@@ -296,7 +296,7 @@ footer {
   line-height: normal;
 }
 /*#perfil-desc p{*/
-.identidade{
+.identidade {
   display: flex;
   justify-content: right;
   gap: 5px;
@@ -389,4 +389,23 @@ footer {
   justify-content: center;
   height: 3rem;
   width: 3rem;
+}
+.projeto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 370px;
+  border: 0.75px solid #837e9f;
+  border-radius: 1rem;
+  margin: auto;
+}
+.descricao {
+  color: #f0f0f0;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 20px;
 }
