@@ -395,13 +395,13 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 320px;
   width: 370px;
   border: 0.75px solid #837e9f;
   border-radius: 1rem;
   margin: auto;
 }
 .image img {
+  margin-top: 5px;
   width: 360px;
   padding: 10px;
   border-radius: 1rem;
@@ -431,12 +431,34 @@ footer {
   font-weight: 700;
 }
 .descricao {
-  padding: 10px;
+  padding: 15px;
   color: #f0f0f0;
   font-family: Poppins, sans-serif;
   font-size: 12px;
   font-weight: 300;
   line-height: normal;
   text-align: center;
-  margin-bottom: 20px;
+}
+.botaomore {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  background: #5d07bd;
+  color: #f0f0f0;
+  letter-spacing: 1px;
+  width: 35%;
+  margin-left: 55%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 1rem;
+}
+.botaomore:hover {
+  background: #430b83;
+}
+.botaomore a {
+  text-decoration: none;
 }
