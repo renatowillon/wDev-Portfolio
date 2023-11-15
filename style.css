@@ -431,6 +431,7 @@ footer {
   font-weight: 700;
 }
 .descricao {
+  padding-top: 5px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
@@ -439,7 +440,7 @@ footer {
   font-size: 12px;
   font-weight: 300;
   line-height: normal;
-  text-align: center;
+  text-align: left;
 }
 .botaomore {
   display: flex;
